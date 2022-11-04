@@ -650,5 +650,9 @@
   "topbar.logout": "Connectez - Out",
   "topbar.viewAll": "Connectez - Out",
   "topbar.viewCart": "Voir le panier",
-  "topbar.totalPrice": "Prix ​​total"
+  "topbar.totalPrice": "Prix ​​total",
+  "sidebar.guestDetail": "Portail invité",
+  "guestDetail.label": "Votre code de réservation",
+  "guestDetail.errorEmpty": "Veuillez saisir votre code de réservation",
+  "guestDetail.errorAlphaNumeric": "Devrait être une combinaison de chiffres et d'alphabets"
 }

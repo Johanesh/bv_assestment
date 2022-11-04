@@ -1,7 +1,7 @@
 const options = [
   {
     key: '/',
-    label: 'Guest Details',
+    label: 'sidebar.guestDetail',
     leftIcon: 'ionicons ion-person',
   },
 ];

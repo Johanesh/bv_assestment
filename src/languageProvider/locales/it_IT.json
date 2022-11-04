@@ -641,5 +641,9 @@
   "topbar.logout": "Disconnettersi",
   "topbar.viewAll": "Guarda tutto",
   "topbar.viewCart": "Visualizza carrello",
-  "topbar.totalPrice": "Prezzo totale"
+  "topbar.totalPrice": "Prezzo totale",
+  "sidebar.guestDetail": "Portale degli ospiti",
+  "guestDetail.label": "Il tuo codice di prenotazione",
+  "guestDetail.errorEmpty": "Si prega di inserire il codice di prenotazione",
+  "guestDetail.errorAlphaNumeric": "Dovrebbe essere una combinazione di numeri e alfabeti"
 }

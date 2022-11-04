@@ -636,5 +636,9 @@
   "topbar.logout": "Logout",
   "topbar.viewAll": "View All",
   "topbar.viewCart": "View Cart",
-  "topbar.totalPrice": "Total Price"
+  "topbar.totalPrice": "Total Price",
+  "sidebar.guestDetail": "Guest Portal",
+  "guestDetail.label": "Your booking code",
+  "guestDetail.errorEmpty": "Please input your booking code",
+  "guestDetail.errorAlphaNumeric": "Should be combination of numbers & alphabets"
 }

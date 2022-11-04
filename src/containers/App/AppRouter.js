@@ -6,7 +6,7 @@ import customRoutes from '../../customApp/router';
 const routes = [
   {
     path: '',
-    component: asyncComponent(() => import('../Widgets/index.js')),
+    component: asyncComponent(() => import('../../customApp/containers/GuestDetail')),
   },
   {
     path: 'inbox',

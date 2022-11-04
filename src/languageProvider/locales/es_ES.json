@@ -651,5 +651,9 @@
   "topbar.logout": "Cerrar sesión",
   "topbar.viewAll": "Ver todo",
   "topbar.viewCart": "Ver carro",
-  "topbar.totalPrice": "Precio total"
+  "topbar.totalPrice": "Precio total",
+  "sidebar.guestDetail": "Portal de invitados",
+  "guestDetail.label": "Su código de reserva",
+  "guestDetail.errorEmpty": "Por favor, introduzca su código de reserva",
+  "guestDetail.errorAlphaNumeric": "Debe ser una combinación de números y alfabetos"
 }
