@@ -2,11 +2,11 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { Layout } from "antd";
 import appActions from "../../redux/app/actions";
-import TopbarNotification from "./topbarNotification";
-import TopbarMessage from "./topbarMessage";
-import TopbarSearch from "./topbarSearch";
-import TopbarUser from "./topbarUser";
-import TopbarAddtoCart from "./topbarAddtoCart";
+// import TopbarNotification from "./topbarNotification";
+// import TopbarMessage from "./topbarMessage";
+// import TopbarSearch from "./topbarSearch";
+// import TopbarUser from "./topbarUser";
+// import TopbarAddtoCart from "./topbarAddtoCart";
 import TopbarWrapper from "./topbar.style";
 
 const { Header } = Layout;
@@ -14,7 +14,7 @@ const { toggleCollapsed } = appActions;
 
 class Topbar extends Component {
   render() {
-    const { toggleCollapsed, url, customizedTheme, locale } = this.props;
+    const { customizedTheme } = this.props;
     const collapsed = this.props.collapsed && !this.props.openDrawer;
     const styling = {
       background: customizedTheme.backgroundColor,
@@ -30,7 +30,7 @@ class Topbar extends Component {
             collapsed ? "isomorphicTopbar collapsed" : "isomorphicTopbar"
           }
         >
-          <div className="isoLeft">
+          {/* <div className="isoLeft">
             <button
               className={
                 collapsed ? "triggerBtn menuCollapsed" : "triggerBtn menuOpen"
@@ -38,9 +38,9 @@ class Topbar extends Component {
               style={{ color: customizedTheme.textColor }}
               onClick={toggleCollapsed}
             />
-          </div>
+          </div> */}
 
-          <ul className="isoRight">
+          {/* <ul className="isoRight">
             <li className="isoSearch">
               <TopbarSearch locale={locale} />
             </li>
@@ -71,7 +71,7 @@ class Topbar extends Component {
             >
               <TopbarUser locale={locale} />
             </li>
-          </ul>
+          </ul> */}
         </Header>
       </TopbarWrapper>
     );
