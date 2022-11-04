@@ -655,5 +655,6 @@
   "sidebar.guestDetail": "Portal de invitados",
   "guestDetail.label": "Su código de reserva",
   "guestDetail.errorEmpty": "Por favor, introduzca su código de reserva",
-  "guestDetail.errorAlphaNumeric": "Debe ser una combinación de números y alfabetos"
+  "guestDetail.errorAlphaNumeric": "Debe ser una combinación de números y alfabetos",
+  "guestDetail.notFound": "¡Datos no encontrados!"
 }

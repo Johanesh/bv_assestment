@@ -13,6 +13,11 @@ const GuestDetailStyle = styled.div`
         text-align: left;
     }
   }
+  .guestDetailLoading {
+    width: 450px;
+    margin: 8px auto;
+    text-align: center;
+  }
 `;
 
 export { GuestDetailStyle };

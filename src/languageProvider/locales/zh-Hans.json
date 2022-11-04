@@ -597,5 +597,6 @@
   "sidebar.guestDetail": "访客门户",
   "guestDetail.label": "您的预订代码",
   "guestDetail.errorEmpty": "请输入您的预订代码",
-  "guestDetail.errorAlphaNumeric": "应该是数字和字母的组合"
+  "guestDetail.errorAlphaNumeric": "应该是数字和字母的组合",
+  "guestDetail.notFound": "未找到数据！"
 }

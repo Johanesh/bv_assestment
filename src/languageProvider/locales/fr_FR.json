@@ -654,5 +654,6 @@
   "sidebar.guestDetail": "Portail invité",
   "guestDetail.label": "Votre code de réservation",
   "guestDetail.errorEmpty": "Veuillez saisir votre code de réservation",
-  "guestDetail.errorAlphaNumeric": "Devrait être une combinaison de chiffres et d'alphabets"
+  "guestDetail.errorAlphaNumeric": "Devrait être une combinaison de chiffres et d'alphabets",
+  "guestDetail.notFound": "Données introuvables!"
 }

@@ -640,5 +640,6 @@
   "sidebar.guestDetail": "Guest Portal",
   "guestDetail.label": "Your booking code",
   "guestDetail.errorEmpty": "Please input your booking code",
-  "guestDetail.errorAlphaNumeric": "Should be combination of numbers & alphabets"
+  "guestDetail.errorAlphaNumeric": "Should be combination of numbers & alphabets",
+  "guestDetail.notFound": "Data not found!"
 }

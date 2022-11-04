@@ -614,5 +614,6 @@
   "sidebar.guestDetail": "بوابة الضيف",
   "guestDetail.label": "رمز الحجز الخاص بك",
   "guestDetail.errorEmpty": "الرجاء إدخال رمز الحجز الخاص بك",
-  "guestDetail.errorAlphaNumeric": "يجب أن يكون مزيجًا من الأرقام والحروف الهجائية"
+  "guestDetail.errorAlphaNumeric": "يجب أن يكون مزيجًا من الأرقام والحروف الهجائية",
+  "guestDetail.notFound": "لم يتم العثور على بيانات!"
 }
