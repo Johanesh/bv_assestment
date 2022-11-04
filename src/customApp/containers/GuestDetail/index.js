@@ -6,6 +6,7 @@ import {
 import {
     GuestDetailStyle,
 } from './guestDetail.style';
+import GuestDetailProfile from './GuestDetailProfile';
 import {
     validateAlphaNumOnly,
 } from '../../helpers/validators';
@@ -57,6 +58,11 @@ const GuestDetail = () => {
                     <div className='guestDetailLoading'>
                         <Spin size="large" />
                     </div>
+                )
+            }
+            {
+                Object.keys(data).length !== 0 && (
+                    <GuestDetailProfile data={data} />
                 )
             }
         </GuestDetailStyle>
