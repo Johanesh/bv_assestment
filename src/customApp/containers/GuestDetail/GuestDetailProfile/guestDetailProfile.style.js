@@ -42,6 +42,7 @@ const GuestDetailProfileStyle = styled.div`
     border-radius: 50%;
     text-align: center;
     margin: 0 auto 16px;
+    background-color: #bebebe;
     img {
         width: 100%;
         height: 100%;
