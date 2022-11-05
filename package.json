@@ -2,6 +2,11 @@
   "name": "isomorphic",
   "version": "2.9.5",
   "private": true,
+  "engines": {
+    "node": "~16.13.1",
+    "npm": "~8.1.2",
+    "yarn": "~1.22.17"
+  },
   "dependencies": {
     "antd": "^3.11.6",
     "antd-local-icon": "^0.1.3",
