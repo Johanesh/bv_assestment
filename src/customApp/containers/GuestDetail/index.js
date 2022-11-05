@@ -36,6 +36,7 @@ const GuestDetail = () => {
         
         if (!checkError()) {
             setIsLoading(true);
+            setError('');
             fetch(`https://bv-online-assessment.herokuapp.com/api/bookings/${code}`)
                 .then((res) => res.json())
                 .then((resData) => setData(resData))

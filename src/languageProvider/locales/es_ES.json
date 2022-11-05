@@ -656,5 +656,12 @@
   "guestDetail.label": "Su código de reserva",
   "guestDetail.errorEmpty": "Por favor, introduzca su código de reserva",
   "guestDetail.errorAlphaNumeric": "Debe ser una combinación de números y alfabetos",
-  "guestDetail.notFound": "¡Datos no encontrados!"
+  "guestDetail.notFound": "¡Datos no encontrados!",
+  "guestDetailProfile.hi": "Hola,",
+  "guestDetailProfile.thanks": "Gracias por reservar con Bukit Vista. Aquí están los detalles de su reserva actual:",
+  "guestDetailProfile.propertyName": "Nombre de la propiedad:",
+  "guestDetailProfile.checkInDate": "Comprobar en la fecha:",
+  "guestDetailProfile.checkOutDate": "Echa un vistazo a la fecha:",
+  "guestDetailProfile.arrivalTime": "Hora de llegada:",
+  "guestDetailProfile.arrivalTimeEmpty": "Por favor, establezca su hora de llegada"
 }

@@ -2,10 +2,13 @@ import styled from 'styled-components';
 
 const GuestDetailProfileStyle = styled.div`
   width: 580px;
+  background-color: #fff;
   margin: 36px auto;
+  padding: 36px 0;
+  border: 1px solid #bebebe;
 
   .guestDetailProfileWrapper {
-    width: 75%;
+    width: 450px;
     margin: auto;
   }
 
@@ -14,10 +17,14 @@ const GuestDetailProfileStyle = styled.div`
   }
 
   .guestDetailProfileInfo {
-    border: 2px solid #2d3446;
-    border-radius: 4px;
     padding: 16px;
     text-align: left;
+  }
+
+  .guestDetailProfileHelp {
+    font-size: 12px;
+    color: #bebebe;
+    margin-left: 16px;
   }
 
   .guestDetailProfileImg {

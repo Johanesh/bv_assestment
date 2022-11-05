@@ -598,5 +598,12 @@
   "guestDetail.label": "您的预订代码",
   "guestDetail.errorEmpty": "请输入您的预订代码",
   "guestDetail.errorAlphaNumeric": "应该是数字和字母的组合",
-  "guestDetail.notFound": "未找到数据！"
+  "guestDetail.notFound": "未找到数据！",
+  "guestDetailProfile.hi": "你好，",
+  "guestDetailProfile.thanks": "感谢您预订 Bukit Vista。以下是您当前预订的详细信息：",
+  "guestDetailProfile.propertyName": "物业名称：",
+  "guestDetailProfile.checkInDate": "登记日期：",
+  "guestDetailProfile.checkOutDate": "离开日期：",
+  "guestDetailProfile.arrivalTime": "到达时间：",
+  "guestDetailProfile.arrivalTimeEmpty": "请设置您的到达时间"
 }
