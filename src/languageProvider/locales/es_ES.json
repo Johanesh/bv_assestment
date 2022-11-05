@@ -663,5 +663,7 @@
   "guestDetailProfile.checkInDate": "Comprobar en la fecha:",
   "guestDetailProfile.checkOutDate": "Echa un vistazo a la fecha:",
   "guestDetailProfile.arrivalTime": "Hora de llegada:",
-  "guestDetailProfile.arrivalTimeEmpty": "Por favor, establezca su hora de llegada"
+  "guestDetailProfile.arrivalTimeEmpty": "Por favor, establezca su hora de llegada",
+  "guestDetailProfile.error": "Error al actualizar la estimación de la hora de llegada",
+  "guestDetailProfile.success": "Gracias, su anfitrión ha sido informado sobre su llegada."
 }

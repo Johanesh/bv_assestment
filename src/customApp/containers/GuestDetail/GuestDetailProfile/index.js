@@ -3,7 +3,6 @@ import {
     Row,
     Col,
     TimePicker,
-    Tooltip,
 } from 'antd';
 import moment from 'moment';
 import {
@@ -18,20 +17,32 @@ const GuestDetailProfile = (props) => {
     const {
         data,
     } = props;
-    const [arrivalTime, setArrivalTime] = useState('');
+    const [arrivalTime, setArrivalTime] = useState(data.arrival_time || new Date());
+    const [error, setError] = useState('');
+    const [submittedData, setSubmittedData] = useState(false);
     const { rowStyle } = basicStyle;
 
     useEffect(() => {
-        setArrivalTime(data.arrival_time);
+        if (data.arrival_time) {
+            setSubmittedData(true);
+        }
     }, [data.arrival_time])
-
-    const handleChange = (value) => {
-        console.log(value);
-    }
 
     const handleUpdate = (open) => {
         if (!open) {
-            console.log('update');
+            let dataBody = {
+                arrival_time: arrivalTime
+            }
+            fetch(`https://bv-online-assessment.herokuapp.com/api/bookings/${data.booking_code}/update-eta`, {
+                method: 'PUT',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(dataBody),
+            })
+                .then((res) => res.json())
+                .then(() => setSubmittedData(true))
+                .catch(() => setError('guestDetailProfile.error'))
         }
     }
 
@@ -54,10 +65,23 @@ const GuestDetailProfile = (props) => {
                         <IntlMessages id='guestDetailProfile.checkOutDate' /> <b>{data.check_out_date}</b>
                     </Col>
                     <Col span={24}>
-                        <IntlMessages id='guestDetailProfile.arrivalTime' /> <TimePicker value={arrivalTime ? moment(arrivalTime, format) : moment(new Date(), format)} format={format} onChange={(val, valString) => handleChange(valString)} onOpenChange={(open) => handleUpdate(open)} />
+                        <IntlMessages id='guestDetailProfile.arrivalTime' /> 
                         {
-                            !arrivalTime && (
-                                <span className='guestDetailProfileHelp'><IntlMessages id='guestDetailProfile.arrivalTimeEmpty' /></span>
+                            !submittedData ? (
+                                <>
+                                    <TimePicker value={moment(arrivalTime, format)} format={format} onChange={(val, valString) => {setArrivalTime(valString); setError('')}} onOpenChange={(open) => handleUpdate(open)} />
+                                    <span className='guestDetailProfileHelp'><IntlMessages id='guestDetailProfile.arrivalTimeEmpty' /></span>
+                                </>
+                            ) : (
+                                <>
+                                    <b style={{ marginLeft: '4px' }}>{arrivalTime}</b>
+                                    <div className='guestDetailProfileHelp guestDetailProfileSuccess'><IntlMessages id='guestDetailProfile.success' /></div>
+                                </>
+                            )
+                        }
+                        {
+                            error && (
+                                <div className='error'>{error && (<IntlMessages id={error} />)}</div>
                             )
                         }
                     </Col>

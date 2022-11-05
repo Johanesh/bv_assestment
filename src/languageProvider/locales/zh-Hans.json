@@ -605,5 +605,7 @@
   "guestDetailProfile.checkInDate": "登记日期：",
   "guestDetailProfile.checkOutDate": "离开日期：",
   "guestDetailProfile.arrivalTime": "到达时间：",
-  "guestDetailProfile.arrivalTimeEmpty": "请设置您的到达时间"
+  "guestDetailProfile.arrivalTimeEmpty": "请设置您的到达时间",
+  "guestDetailProfile.error": "更新到达时间估计错误",
+  "guestDetailProfile.success": "谢谢您，您的主人已被告知您的到来"
 }

@@ -10,10 +10,14 @@ const GuestDetailProfileStyle = styled.div`
   .guestDetailProfileWrapper {
     width: 450px;
     margin: auto;
+    .error {
+      color: red;
+      text-align: left;
+    }
   }
 
   .guestDetailProfileDivider {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
   }
 
   .guestDetailProfileInfo {
@@ -25,6 +29,10 @@ const GuestDetailProfileStyle = styled.div`
     font-size: 12px;
     color: #bebebe;
     margin-left: 16px;
+  }
+
+  .guestDetailProfileSuccess {
+    margin-left: 0;
   }
 
   .guestDetailProfileImg {

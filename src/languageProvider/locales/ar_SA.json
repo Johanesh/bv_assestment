@@ -622,5 +622,7 @@
   "guestDetailProfile.checkInDate": "تاريخ الوصول:",
   "guestDetailProfile.checkOutDate": "موعد انتهاء الأقامة:",
   "guestDetailProfile.arrivalTime": "وقت الوصول:",
-  "guestDetailProfile.arrivalTimeEmpty": "يرجى تحديد وقت وصولك"
+  "guestDetailProfile.arrivalTimeEmpty": "يرجى تحديد وقت وصولك",
+  "guestDetailProfile.error": "خطأ في تحديث تقدير وقت الوصول",
+  "guestDetailProfile.success": "شكرًا لك ، تم إبلاغ مضيفك بوصولك"
 }

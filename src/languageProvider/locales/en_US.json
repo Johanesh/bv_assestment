@@ -648,5 +648,7 @@
   "guestDetailProfile.checkInDate": "Check in date:",
   "guestDetailProfile.checkOutDate": "Check out date:",
   "guestDetailProfile.arrivalTime": "Arrival time:",
-  "guestDetailProfile.arrivalTimeEmpty": "Please set your arrival time"
+  "guestDetailProfile.arrivalTimeEmpty": "Please set your arrival time",
+  "guestDetailProfile.error": "Error to update arrival time estimation",
+  "guestDetailProfile.success": "Thank you, your host has been informed about your arrival"
 }

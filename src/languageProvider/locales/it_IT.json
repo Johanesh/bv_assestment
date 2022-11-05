@@ -653,5 +653,7 @@
   "guestDetailProfile.checkInDate": "Data di arrivo:",
   "guestDetailProfile.checkOutDate": "Data di partenza:",
   "guestDetailProfile.arrivalTime": "Orario di arrivo:",
-  "guestDetailProfile.arrivalTimeEmpty": "Si prega di impostare l'orario di arrivo"
+  "guestDetailProfile.arrivalTimeEmpty": "Si prega di impostare l'orario di arrivo",
+  "guestDetailProfile.error": "Errore durante l'aggiornamento della stima dell'orario di arrivo",
+  "guestDetailProfile.success": "Grazie, il tuo host è stato informato del tuo arrivo"
 }
