@@ -106,7 +106,7 @@
     "redux-mock-store": "^1.2.3"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "npm i -g serve && serve -s build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
