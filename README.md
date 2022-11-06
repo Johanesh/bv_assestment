@@ -2,8 +2,8 @@ This project was bootstrapped with Isomorphic - React Redux Admin Dashboard `Ver
 
 ## Requirements
 Before start, install this programs (minimum requirements)
-- NodeJS : `v16.13.1`
-- NPM : `v8.1.2`
+- NodeJS : `v10.23.0`
+- NPM : `v6.14.8`
 - Yarn: `v1.22.17`
 
 ## Quick Start
